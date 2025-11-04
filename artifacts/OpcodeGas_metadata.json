@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "somaEmOpcode",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "soma",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "somaEmSolidity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/yulOpcode.sol": "OpcodeGas"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/yulOpcode.sol": {
+			"keccak256": "0x0c57f7c1e925e0fc8b646ffa954b25ef4b07e1382980446e56a9d0c77dd24635",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfa95cb7c9735b050d2ff95ccc35d4cac0772020b7fd3d94ad66cdb881dab827",
+				"dweb:/ipfs/QmU65MP4HQwuk98EXQ5n6Nzmkr36qmB1eLNFDJsGx7TnAN"
+			]
+		}
+	},
+	"version": 1
+}

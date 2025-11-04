@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mapping.sol": "NovaTurma"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mapping.sol": {
+			"keccak256": "0xc0e51ba023b59b2dd7f967eff350b0308e7c86ba6951aa6997fa09628461fb39",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03f82908a0f8dbf9fe2533601c13559b64f43afa7eab4fc3265b29ad360bcde4",
+				"dweb:/ipfs/QmbmjjKAWSciKUWAMSTi3YrdFeEtYKjN9TXo5XdEaiwy6e"
+			]
+		}
+	},
+	"version": 1
+}

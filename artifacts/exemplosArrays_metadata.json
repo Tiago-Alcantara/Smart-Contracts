@@ -1,0 +1,194 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Alunos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DisciplinasNome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "num",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "novoAluno",
+						"type": "string"
+					}
+				],
+				"name": "definirAluno",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nomeD",
+						"type": "string"
+					}
+				],
+				"name": "definirDisciplina",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "disciplina",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "professor",
+						"type": "string"
+					}
+				],
+				"name": "definirProfessorDiciplina",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numeroD",
+						"type": "uint256"
+					}
+				],
+				"name": "deletarElemento",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numeroD",
+						"type": "uint256"
+					}
+				],
+				"name": "mostrarProfessorDiciplina",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Indicediciplina",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "IndiceProf",
+						"type": "uint256"
+					}
+				],
+				"name": "mostrarProfessorDiciplina2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Arrays.sol": "exemplosArrays"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Arrays.sol": {
+			"keccak256": "0x73b5df18b8e7fcf9ac73e0d87ab6eed021fd5b39e1e0a65ee382dff6d880a776",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4f016dd27cf10b1c06d497e32d68d278859a2d69fc459987a6b989eaa9180326",
+				"dweb:/ipfs/QmbAB4HRBwGtqrAqFDgS1LMx8erpEiUCH34dQQra7WP74s"
+			]
+		}
+	},
+	"version": 1
+}
